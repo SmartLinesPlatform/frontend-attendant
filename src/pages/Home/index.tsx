@@ -25,32 +25,43 @@ const Home: React.FC = () => {
 
                 <div className="col-2">
                     <img src={arrow} alt="smartlines" className="arrow"/>
-                    <table>
-                        <tr>
-                            <td>23</td>
-                            <td>24</td>
-                            <td>25</td>
-                            <td>26</td>
-                            <td>27</td>
-                        </tr>
-                        <tr>
-                            <td>28</td>
-                            <td>29</td>
-                            <td>30</td>
-                            <td>31</td>
-                            <td>32</td>
-                        </tr>
-                        <tr>
-                            <td>33</td>
-                            <td>34</td>
-                            <td>35</td>
-                            <td>36</td>
-                            <td>37</td>
-                        </tr>
-                    </table>
+                </div>
 
-                    <h3>Total de Pessoas na Fila: <p>15 pessoas</p></h3>
-                    <h3>Tempo por atendimento: <p>3 min</p></h3>
+                <div className="col-3">
+                <table>
+                        <tbody>
+                            <tr>
+                                <th>23</th>
+                                <th>24</th>
+                                <th>25</th>
+                                <th>26</th>
+                                <th>27</th>
+                            </tr>
+                            <tr>
+                                <th>28</th>
+                                <th>29</th>
+                                <th>30</th>
+                                <th>31</th>
+                                <th>32</th>
+                            </tr>
+                            <tr>
+                                <th>33</th>
+                                <th>34</th>
+                                <th>35</th>
+                                <th>36</th>
+                                <th>37</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br/>
+                    <div className="text-2">
+                        <div className="subtext-1">
+                            <h2>Total de Pessoas na Fila: <p className="num">15 pessoas</p></h2>
+                        </div>
+                        <div className="subtext-2">
+                            <h2>Tempo por atendimento: <p className="num">3 min</p></h2>
+                        </div>
+                    </div>
                 </div>
            </div>
        </div> 
