@@ -36,12 +36,12 @@ const Cadastro: React.FC = () => {
               </p>
 
               <p>
-                <input type="submit" value="Cadastrar" />
+              <a href="/index"><button type="button" className="btn-1">Cadastrar</button></a>
               </p>
 
               <p className="link">
                 Já tem conta?
-              <a href="#paralogin"> Ir para Login </a>
+              <a href="/login">Ir para Login</a>
               </p>
             </form>
           </div>
