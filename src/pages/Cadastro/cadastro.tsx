@@ -41,7 +41,7 @@ const Cadastro: React.FC = () => {
 
               <p className="link">
                 Já tem conta?
-              <a href="/login">Ir para Login</a>
+              <a href="/">Ir para Login</a>
               </p>
             </form>
           </div>
